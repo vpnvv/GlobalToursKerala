@@ -1444,7 +1444,12 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     nav.navbar.bootsnav.navbar-fixed .logo-scrolled{
-        display: block !important;
+        text-align: center;
+    display: inline-block;
+    width: 105px;
+    height: 88px;
+    margin: -8px;
+    left: 9px;
     }
 
     nav.navbar.bootsnav.navbar-fixed .logo-display{
