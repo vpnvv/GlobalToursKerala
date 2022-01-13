@@ -1197,10 +1197,10 @@ button:focus {
     background-color: transparent;
 }
 
-.btn-outline-blue:hover, .btn-outline-blue:active, .btn-outline-blue:focus {
-    color: #fff;
-    border-color: #2196F3;
-    background-color: #2196F3;
+.btn-outline-blue:hover {
+    color: #324a7a;
+    border-color: #324a7a;
+    background-color: #ffffff;
 }
 
 .btn-dark {
@@ -3002,7 +3002,7 @@ img.mfp-img {
 
 .post-info {
     padding: 40px;
-    background: #212121;
+    background: #324a7a;
     transition: all 0.2s ease;
 }
 .post:hover .post-img img {
@@ -3027,16 +3027,17 @@ img.mfp-img {
     margin-bottom:0px;
 }
 .post-info h6 {
-   color: #2196F3;
-   font-size:12px;
+   color: #dadada;
+   font-size:17px;
 }
 
 .post-info a {
     color:#fff;
+    font-size: 2.5rem;
 }
 
 .post-info a:hover {
-    color:#2196F3;
+    /* font-size: 3rem; */
 }
 
 .post-info p {
@@ -3052,14 +3053,14 @@ a.readmore {
     font-weight: 700;
 }
 
-a:hover.readmore {
+/* a:hover.readmore {
     color: #2196F3;
-}
+} */
 
-a.readmore > span {
+/* a.readmore > span {
     display: inline-block;
     vertical-align: middle;
-}
+} */
 
 .blog-grid-slider .owl-prev, .portfolio-slider .owl-prev,
 .blog-grid-slider .owl-next, .portfolio-slider .owl-next{
@@ -6113,4 +6114,15 @@ form.register {
         .col-about-right{
           
         }
+      }
+
+
+      ::-webkit-scrollbar{
+        width: 9px;
+      }
+      
+      
+      ::-webkit-scrollbar-thumb{
+        background: #324a7a;
+        border-radius: 20px;
       }
