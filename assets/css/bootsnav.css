@@ -58,12 +58,12 @@ nav.navbar.bootsnav ul.nav > li > a{
     font-family: 'Source Sans Pro', sans-serif;
     letter-spacing: 0.10em;
 	font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 
 nav.navbar.bootsnav ul.nav > li > a:hover{
-    color: #324a7a;
+    color: #FF8C00;
     background-color: transparent;
     outline: none;
     margin-bottom: -2px;
@@ -618,7 +618,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover,
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover{
         background-color: transparent;
-		color:#324a7a;
+		color:#FF8C00;
     }
     
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a{

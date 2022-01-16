@@ -4637,7 +4637,7 @@ ul.footer-gallery li img {
 	background-repeat:no-repeat;
 	background-position:center center;
     position: relative;
-    min-height: 450px;
+    min-height: 300px;
 }
 .title-hero-bg::before {
     content: "";
@@ -4675,7 +4675,7 @@ ul.footer-gallery li img {
 }
 
 .about-cover-bg {
-	background-image: url(../images/title-bg/title-hero-3.jpg);
+	background-image: url(../images/tours/tour.jpg);
 }
 
 .service-cover-bg {
@@ -4710,7 +4710,7 @@ ul.footer-gallery li img {
 
 .page-title {
     position: absolute;
-    top: 50%;
+    top: 62%;
     width: 100%;
     left: 0;
     z-index: 15;
@@ -5113,19 +5113,22 @@ ul.social-top li a{
 }
 .accordion-color .panel-title a.collapsed{
     display: block;
-    color: #212121;
-    background-color: #fff;
-    border-color: #f1f1f1;
+    color: #ffffff;
+    background-color: #324a7a;
+    border-color: #324a7a;
     padding: 22px 15px 22px 64px;
     border-radius: 0px;
+    border-bottom: 4px solid #FF8C00;
+    font-weight: 600;
 }
 .accordion-color .panel-title a{
     display: block;
     color: #fff;
-    border-color: #f1f1f1;
+    border-color: #324a7a;
     padding: 22px 15px 22px 64px;
-    background-color: #2196F3;
-	border-bottom: 1px solid #2196F3;
+    background-color: #324a7a;
+	border-bottom: 4px solid #FF8C00;
+    font-weight: 600;
 }
 .accordion-color .panel-default>.panel-heading+.panel-collapse>.panel-body {
     border: 1px solid #fff;
@@ -5184,6 +5187,7 @@ ul.social-top li a{
     border-color: #f1f1f1;
     padding: 22px 15px 22px 80px;
     background-color: #f1f1f1;
+    font-weight: 400;
 }
 .accordion-transparent .panel-default>.panel-heading+.panel-collapse>.panel-body {
     border: 1px solid #f1f1f1;
@@ -6126,3 +6130,20 @@ form.register {
         background: #324a7a;
         border-radius: 20px;
       }
+
+ .list{
+    font-size: 16px;
+    list-style: none;
+}
+
+/* #list{
+    content: "\2713";
+}  */
+
+.right{
+    color: #33cc33;
+}
+
+.no{
+    color: #bd0000;
+}
