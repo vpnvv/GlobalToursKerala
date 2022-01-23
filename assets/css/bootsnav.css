@@ -609,21 +609,21 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         -o-border-radius: 0px;
         border-radius: 0px;
         padding: 0;
-        width: 200px;
-        background: #fff;
+        width: 70px;
+        background: rgb(219, 219, 219);
 		left: 0;
 		border: 0;
     }
     
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover,
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover{
-        background-color: transparent;
-		color:#FF8C00;
+        background-color: #324a7a;
+		color:#ffffff;
     }
     
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a{
         padding: 10px 15px;
-        color: #212121;
+        color: #000000;
         font-weight: 600;
         text-align: center;
     }
