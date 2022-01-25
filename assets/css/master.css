@@ -3358,7 +3358,7 @@ a.readmore {
     margin-bottom: 30px;
     color: #324a7a;
 	letter-spacing: 1px;
-    font-weight: 700;
+    font-weight: 800;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -3391,6 +3391,7 @@ a.readmore {
 
 .footer .widget-links a{
   color: rgb(0, 0, 0);
+  font-weight: 500;
 }
 
 .footer .widget-links a:hover{
