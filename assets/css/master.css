@@ -3345,7 +3345,7 @@ a.readmore {
 }
 
 .footer-main{
-  padding:60px 0 60px;
+  padding:30px 0 30px;
   background-color: #212121;
   position: relative;
 }
@@ -3535,7 +3535,8 @@ ul.footer-gallery li img {
 
 .logo-footer {
 	height: 34px;
-    margin-bottom: 15px;
+    margin-bottom: -70px;
+    margin-top: 50px;
 }
 
 .contact-widget.widget ul li {
