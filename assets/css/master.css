@@ -1,9 +1,4 @@
-/*
-Template: Arcon
-Author: Incognito Themes
-Version: 1.0
-Designed and Development by: Incognito Themes
-*/
+
 
 
 /*
@@ -253,6 +248,9 @@ section {
 
 .navbar-nav {
     float: right;
+
+
+    
     margin: 15px;
     padding: 0 10px;
 }
